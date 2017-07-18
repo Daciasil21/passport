@@ -111,7 +111,7 @@ module.exports = function(passport, user) {
  
             });
             //LOCAL SIGNIN
-passport.use(new LocalStrategy(
+passport.use('local-signin', new LocalStrategy(
  
     {
  

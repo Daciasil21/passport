@@ -59,8 +59,8 @@ if (process.env.JAWSDB_URL){
 	connection = mysql.createConnection({
 		host: 'localhost',
 		user: 'root',
-		password: "root",
-		database: "passport_db"
+		password: 'root',
+		database: 'passport_db'
 	})
 }
 connection.connect();
@@ -79,7 +79,7 @@ models.sequelize.sync().then(function() {
 
  
  //connect to server
-app.listen(process.env.PORT || 3360, function(err) {
+app.listen(process.env.PORT || 5000, function(err) {
  
     if (!err)
         console.log("Site is live");

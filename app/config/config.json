@@ -12,18 +12,17 @@
  
         "host": "127.0.0.1",
  
-        "dialect": "mysql",
-        "port":     8889
+        "dialect": "mysql"
  
     },
  
     "test": {
  
-        "username": "root",
+        "username": "",
  
-        "password": "root",
+        "password": null,
  
-        "database": "passport_db",
+        "database": "",
  
         "host": "",
  
@@ -33,7 +32,13 @@
  
     "production": {
  
-        "use_env_variable": "JAWSDB_URL",
+        "username": "",
+ 
+        "password": null,
+ 
+        "database": "",
+ 
+        "host": "127.0.0.1",
  
         "dialect": "mysql"
  
